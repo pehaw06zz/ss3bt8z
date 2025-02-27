@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://api.gateway.com" method="POST">
+        <table>
+            <tr>
+                <td><label for="name">Họ và Tên:</label></td>
+                <td><input type="text" id="name" name="name" /></td>
+            </tr>
+            <tr>
+                <td><label for="ngaysinh">Ngay Sinh:</label></td>
+                <td><input type="date" id="ngaysinh" name="ngaysinh" /></td>
+            </tr>
+            <tr>
+                <td>Chọn Giới Tính:</td>
+                <td>
+                    <input type="radio" name="gender" value="nam" id="nam"> <label for="nam">Nam</label>
+                    <input type="radio" name="gender" value="nu" id="nu"> <label for="nu">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="number">So can cuoc:</label></td>
+                <td><input type="tel" id="number" name="number"></td>
+            </tr>
+            <tr>
+                <td><label for="ngaycap">Ngay Cap:</label></td>
+                <td><input type="date" id="ngaycap" name="ngaycap"></td>
+            </tr>
+            <tr>
+                <td><label for="number">so dien thoai:</label></td>
+                <td><input type="tel" id="number" name="number"></td>
+            </tr>
+            <tr>
+                <td><label for="gamil">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="diaChi">Dia Chi Thuong Tru:</label></td>
+                <td><textarea id="diaChi" name="diaChi" rows="2" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="diaChi">Dia Chi Tam Tru:</label></td>
+                <td><textarea id="diaChi" name="diaChi" rows="2" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td>Loai Can Cuoc Cong Dan:</td>
+                <td>
+                    <input type="radio" name="gender" value="CCCDM" id="CCCDM"><label for="CCCDM">CCCDM</label>
+                    <input type="radio" name="gender" value="CCCDC" id="CCCDC"><label for="CCCDC">CCCDC</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dantoc">Dan Toc:</label></td>
+                <td><input type="dantoc" id="dantoc" name="dantoc"></td>
+            </tr>
+            <tr>
+                <td><label for="tongiao">tongiao:</label></td>
+                <td><input type="tongiao" id="tongiao" name="tongiao"></td>
+            </tr>
+            <tr>
+                <td><label for="quoctich">Quoc Tich:</label></td>
+                <td><input type="quoctich" id="quoctich" name="quoctich" value="VietNam"></td>
+            </tr>
+            <tr>
+                <td><label for="name">Ho Ten Cha/Me:</label></td>
+                <td><input type="name" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td><label for="number">So CCCD Cha/Me:</label></td>
+                <td><input type="tel" id="number" name="number"></td>
+            </tr>
+            <tr>
+                <td><label for="tinhtp">Tinh/Thanh Pho:</label></td>
+                <td>
+                    <select id="tinhtp" name="tinhtp">
+                        <option value="tinhlongaN">Long An</option>
+                        <option value="tp.hochominh">TP.HCM</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <button type="submit">Gửi Thông Tin</button>
+    </form>
+</body>
+
+</html>
